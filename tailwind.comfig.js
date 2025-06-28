@@ -1,3 +1,4 @@
+const { default: MiddlewarePlugin } = require('next/dist/build/webpack/plugins/middleware-plugin');
 const { Container } = require('postcss');
 
 /** @type {import('tailwindcss').Config} */
