@@ -14,7 +14,7 @@ const Testimonial = () => {
             <div className="text-center flex flex-col items-center gap-2">
               <Image
                 className="rounded-full"
-                src="./user.jpg"
+                src="/user.jpg"
                 width={80}
                 height={20}
                 alt="dp"
@@ -23,13 +23,13 @@ const Testimonial = () => {
               <p className="text-gray-500 text-sm">CEO & Founder Invision</p>
               <Image
                 className="py-2"
-                src="./Quotes.jpg"
+                src="/Quotes.jpg"
                 width={60}
                 height={50}
                 alt="quotes"
               />
               <p className="max-w-[200px] text-pink-500 break text-sm">
-                "If you do what interests you, atleast one person is pleased."
+                &quot;If you do what interests you, atleast one person is pleased.&quot;
               </p>
             </div>
           </div>
